@@ -1,0 +1,33 @@
+/* DEBUG */
+
+.debug {
+    background-color: wheat;
+    border: 1px dotted black;
+    height: 5rem;
+}
+
+/* --------------------------------------------------- */
+
+/* HEADER */
+
+    /* Header head */
+
+header {
+    width: 100%;
+    z-index: 1;
+}
+
+header .header-upper {
+    height: 2rem;
+}
+
+    /* Header nav */
+
+header .header-main {
+    height: 4rem;
+}
+
+header .navbar-nav {
+    width: 100%;
+}
+
