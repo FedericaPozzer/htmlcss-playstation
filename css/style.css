@@ -31,3 +31,25 @@ header .navbar-nav {
     width: 100%;
 }
 
+/* MAIN */
+
+    /* Main jumbotron */
+
+.jumbotron {
+    background-color: yellowgreen;
+
+    padding-top: 6rem;
+    /* height: 80vh; */
+}
+
+.jumbotron .jumbo-row-1 {
+    background-color: aquamarine;
+    height: 80vh;
+}
+
+.jumbo-row-2 [class*="col-"] {
+    height: 3rem;
+    
+    background-color: gold;
+    border: 1px solid black;
+}
