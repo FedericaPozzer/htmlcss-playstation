@@ -6,6 +6,17 @@
     height: 5rem;
 }
 
+.future-img {
+    background-color: brown;
+    height: 10rem;
+}
+
+.future-img-2 {
+    background-color: yellow;
+    height: 10rem;
+    border: 1px solid black;
+}
+
 /* --------------------------------------------------- */
 
 /* HEADER */
@@ -35,11 +46,11 @@ header .navbar-nav {
 
     /* Main jumbotron */
 
-.jumbotron {
+.jumbotron,
+.takes {
     background-color: yellowgreen;
 
     padding-top: 6rem;
-    /* height: 80vh; */
 }
 
 .jumbotron .jumbo-row-1 {
@@ -52,4 +63,19 @@ header .navbar-nav {
     
     background-color: gold;
     border: 1px solid black;
+}
+
+/* Main - plus */
+
+.plus .md-show,
+.now .md-show {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .plus .md-show,
+    .now .md-show {
+        display: block;
+    }
+    
 }
