@@ -81,6 +81,25 @@ header .navbar-nav {
     width: 15rem;
 }
 
+/* Main - console */
+
+.show-img img,
+.row-thumb img {
+    max-width: 100%;
+}
+
+/* Main - takes */
+
+.takes-jumbotron {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+}
+
+
+
+
+
+
 /* Main - plus/now */
 
 .plus .md-show,
@@ -89,11 +108,11 @@ header .navbar-nav {
 }
 
 @media screen and (min-width: 768px) {
+    
     .plus .md-show,
     .now .md-show {
         display: block;
     }
-    
 }
 
 
@@ -104,6 +123,7 @@ header .navbar-nav {
     --black: #333333;
     --white: #ffffff;
     --red: #cd3d0f;
+    --blue: #2d64e6;
 }
 
 .bg-b {
@@ -124,4 +144,12 @@ header .navbar-nav {
 
 .bg-r {
     background-color: var(--red);
+}
+
+.bg-bl {
+ background-color: var(--blue);
+}
+
+.c-bl {
+    color: var(--blue);
 }
