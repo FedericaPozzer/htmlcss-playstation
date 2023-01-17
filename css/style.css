@@ -91,7 +91,8 @@ header .navbar-nav {
 .plus-img img,
 .nuovi-img img,
 .now-logo img,
-.now-img img {
+.now-img img,
+.social-img img {
     max-width: 100%;
 }
 
@@ -114,6 +115,31 @@ header .navbar-nav {
     width: 70%;
 }
 
+/* Footer */
+
+.globe-img img {
+    height: 1rem;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.footer-logo img {
+    height: 3rem;
+}
+
+footer p > a {
+    text-decoration: underline;
+}
+
+
+
 
 
 /* Main - plus/now */
@@ -133,6 +159,7 @@ header .navbar-nav {
 
 
 
+
 /* COLORS AND BACKGROUNDS */
 
 :root {
@@ -143,6 +170,7 @@ header .navbar-nav {
     --grey: #bebcbb;
     --lightgrey: #d9dadc;
     --darkblue: #161c3b;
+    --blue-footer: #00439c;
 }
 
 .bg-b {
@@ -183,4 +211,8 @@ header .navbar-nav {
 
 .bg-db {
     background-color: var(--darkblue);
+}
+
+.bg-bf {
+    background-color: var(--blue-footer);
 }
