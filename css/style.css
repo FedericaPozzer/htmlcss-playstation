@@ -84,7 +84,14 @@ header .navbar-nav {
 /* Main - console */
 
 .show-img img,
-.row-thumb img {
+.row-thumb img,
+.row-uscite img,
+.products-img img,
+.plus-logo img,
+.plus-img img,
+.nuovi-img img,
+.now-logo img,
+.now-img img {
     max-width: 100%;
 }
 
@@ -95,8 +102,17 @@ header .navbar-nav {
     background-position: center;
 }
 
+.takes-logo {
+    width: 20rem;
+}
+
+/* Main - now */
 
 
+.plus .plus-logo img,
+.now .now-logo img {
+    width: 70%;
+}
 
 
 
@@ -124,6 +140,9 @@ header .navbar-nav {
     --white: #ffffff;
     --red: #cd3d0f;
     --blue: #2d64e6;
+    --grey: #bebcbb;
+    --lightgrey: #d9dadc;
+    --darkblue: #161c3b;
 }
 
 .bg-b {
@@ -152,4 +171,16 @@ header .navbar-nav {
 
 .c-bl {
     color: var(--blue);
+}
+
+.bg-g {
+    background-color: var(--grey);
+}
+
+.bg-lg {
+    background-color: var(--lightgrey);
+}
+
+.bg-db {
+    background-color: var(--darkblue);
 }
