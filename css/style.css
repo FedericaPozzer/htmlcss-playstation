@@ -1,3 +1,10 @@
+/* ALL */
+
+img {
+    max-width: 100%;
+}
+
+/* ----------------------------------------------------- */
 
 
 /* HEADER */
@@ -21,6 +28,7 @@ header .navbar-nav {
 
 .chevron {
     height: 1rem;
+    display: none;
 }
 
 .search {
@@ -33,7 +41,6 @@ header .navbar-nav {
 
 .jumbotron,
 .takes-jumbotron {
-
     padding-top: 6rem;
 }
 
@@ -41,34 +48,26 @@ header .navbar-nav {
     height: 80vh;
 }
 
-
 .container-bg {
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
 }
 
-.returnal-logo {
-    width: 50%;
-}
+    /* Main other */
 
+.returnal-logo,
 .takes-logo {
     width: 50%;
 }
 
-/* Main - console */
+.takes-jumbotron {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+}
 
-.jumbo-row-2 img,
-.show-img img,
-.row-thumb img,
-.row-uscite img,
-.products-img img,
-.plus-logo img,
-.plus-img img,
-.nuovi-img img,
-.now-logo img,
-.now-img img,
-.social-img img {
-    max-width: 100%;
+.selection-border {
+    padding: .1rem;
+    border: 1px solid var(--blue);
 }
 
 .product-selected {
@@ -76,16 +75,6 @@ header .navbar-nav {
     width: 90%;
     border-bottom: 2px solid var(--blue);
 }
-
-/* Main - takes */
-
-.takes-jumbotron {
-    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-position: center;
-}
-
-/* Main - now */
-
 
 .plus .plus-logo img,
 .now .now-logo img {
@@ -111,15 +100,10 @@ footer a {
     height: 3rem;
 }
 
-footer p > a {
-    text-decoration: underline;
-}
+/* ----------------------------------------------------- */
 
 
-
-
-
-/* Main - plus/now */
+/* MQ Main - plus/now */
 
 .plus .md-show,
 .now .md-show {
@@ -134,7 +118,14 @@ footer p > a {
     }
 }
 
+@media screen and (min-width: 992px) {
 
+    .chevron {
+        display: block;
+    }
+}
+
+/* ----------------------------------------------------- */
 
 
 /* COLORS AND BACKGROUNDS */
