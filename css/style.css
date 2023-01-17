@@ -28,18 +28,22 @@ header {
     z-index: 1;
 }
 
-header .header-upper {
-    height: 2rem;
+.header-upper img {
+    height: 1rem;
 }
 
     /* Header nav */
 
-header .header-main {
-    height: 4rem;
-}
-
 header .navbar-nav {
     width: 100%;
+}
+
+.chevron {
+    height: 1rem;
+}
+
+.search {
+    height: 1.5rem;
 }
 
 /* MAIN */
@@ -47,7 +51,7 @@ header .navbar-nav {
     /* Main jumbotron */
 
 .jumbotron,
-.takes {
+.takes-jumbotron {
     background-color: yellowgreen;
 
     padding-top: 6rem;
@@ -65,7 +69,7 @@ header .navbar-nav {
     border: 1px solid black;
 }
 
-/* Main - plus */
+/* Main - plus/now */
 
 .plus .md-show,
 .now .md-show {
@@ -78,4 +82,29 @@ header .navbar-nav {
         display: block;
     }
     
+}
+
+
+
+/* COLORS AND BACKGROUNDS */
+
+:root {
+    --black: #333333;
+    --white: #ffffff;
+}
+
+.bg-b {
+    background-color: var(--black);
+}
+
+.c-b {
+    color: var(--black);
+}
+
+.bg-w {
+    background-color: var(--white);
+}
+
+.c-w {
+    color: var(--white);
 }
