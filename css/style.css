@@ -1,10 +1,10 @@
 /* DEBUG */
 
-.debug {
+/* .debug {
     background-color: wheat;
     border: 1px dotted black;
     height: 5rem;
-}
+} */
 
 .future-img {
     background-color: brown;
@@ -17,7 +17,12 @@
     border: 1px solid black;
 }
 
+.jumbotron {
+    background-color: aqua;
+}
+
 /* --------------------------------------------------- */
+
 
 /* HEADER */
 
@@ -52,21 +57,28 @@ header .navbar-nav {
 
 .jumbotron,
 .takes-jumbotron {
-    background-color: yellowgreen;
 
     padding-top: 6rem;
 }
 
 .jumbotron .jumbo-row-1 {
-    background-color: aquamarine;
     height: 80vh;
 }
 
-.jumbo-row-2 [class*="col-"] {
-    height: 3rem;
-    
-    background-color: gold;
-    border: 1px solid black;
+/* .jumbo-row-2 [class*="col-"] {
+} */
+
+.jumbo-row-2 img {
+    max-width: 100%;
+}
+
+.container-bg {
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+}
+
+.returnal-logo {
+    width: 15rem;
 }
 
 /* Main - plus/now */
@@ -91,6 +103,7 @@ header .navbar-nav {
 :root {
     --black: #333333;
     --white: #ffffff;
+    --red: #cd3d0f;
 }
 
 .bg-b {
@@ -107,4 +120,8 @@ header .navbar-nav {
 
 .c-w {
     color: var(--white);
+}
+
+.bg-r {
+    background-color: var(--red);
 }
