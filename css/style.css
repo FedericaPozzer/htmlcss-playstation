@@ -2,6 +2,7 @@
 
 img {
     max-width: 100%;
+    cursor: pointer;
 }
 
 /* ----------------------------------------------------- */
@@ -28,7 +29,6 @@ header .navbar-nav {
 
 .chevron {
     height: 1rem;
-    display: none;
 }
 
 .search {
@@ -51,6 +51,7 @@ header .navbar-nav {
 .container-bg {
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
+    background-size: cover;
 }
 
     /* Main other */
@@ -81,7 +82,7 @@ header .navbar-nav {
     width: 70%;
 }
 
-/* Footer */
+/* FOOTER */
 
 .globe-img img {
     height: 1rem;
@@ -100,30 +101,10 @@ footer a {
     height: 3rem;
 }
 
-/* ----------------------------------------------------- */
-
-
-/* MQ Main - plus/now */
-
-.plus .md-show,
-.now .md-show {
-    display: none;
+footer {
+    font-size: smaller;
 }
 
-@media screen and (min-width: 768px) {
-    
-    .plus .md-show,
-    .now .md-show {
-        display: block;
-    }
-}
-
-@media screen and (min-width: 992px) {
-
-    .chevron {
-        display: block;
-    }
-}
 
 /* ----------------------------------------------------- */
 
