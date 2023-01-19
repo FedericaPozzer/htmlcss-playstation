@@ -50,7 +50,7 @@ header .navbar-nav {
 
 .container-bg {
     background-image: url(../img/jumbo-bg.png);
-    background-position: center;
+    background-position: center top;
     background-size: cover;
 }
 
@@ -64,6 +64,7 @@ header .navbar-nav {
 .takes-jumbotron {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
+    background-size: cover;
 }
 
 .selection-border {
